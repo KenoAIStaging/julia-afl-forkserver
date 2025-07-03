@@ -1,6 +1,6 @@
 #!/usr/bin/env julia
 
-include("julia_afl_new_fixed.jl")
+include("afl_forkserver.jl")
 
 # Simple test target
 function fuzz_target(input::Vector{UInt8})
