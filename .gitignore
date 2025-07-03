@@ -1,0 +1,26 @@
+# AFL++ output directories
+findings/
+out/
+crashes/
+hangs/
+queue/
+.cur_input
+fuzzer_stats
+plot_data
+
+# Test directories
+test_corpus/
+demo_corpus/
+corpus/
+
+# Temporary files
+*.swp
+*~
+.DS_Store
+tmp/
+
+# Julia
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+deps/deps.jl
